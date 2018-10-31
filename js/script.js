@@ -5,9 +5,9 @@ $(document).ready(function () {
   let gamescollection;
   let i = 0;
   let g = 0;
-  createGames();
-  function createGames() { //Function for creating games list
-    gamescollection = new GamesCollection(4);//Number of games boxes to be created
+  createGames(4);
+  function createGames(gamesNum) { //Function for creating games list
+    gamescollection = new GamesCollection(gamesNum);//Number of games boxes to be created
     gamescollection.render(); //Renders gamescollection object
     return gamescollection;//Return gamescollection object
   }
@@ -27,6 +27,6 @@ $(document).ready(function () {
   }
 
   //Details for game 1
-  $(".game-1 .title").text("Generic FPS");
+  $(".game-1 .title").text("Generic Game #1");
   $(".game-1 .description").text("This is a test description -  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah");
 });
