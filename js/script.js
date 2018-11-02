@@ -5,7 +5,7 @@ $(document).ready(function () {
   let gamescollection;
   let i = 0;
   let g = 0;
-  createGames(4);
+  createGames(24);
   function createGames(gamesNum) { //Function for creating games list
     gamescollection = new GamesCollection(gamesNum);//Number of games boxes to be created
     gamescollection.render(); //Renders gamescollection object
