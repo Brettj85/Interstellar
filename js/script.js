@@ -29,4 +29,8 @@ $(document).ready(function () {
   //Details for game 1
   $(".game-1 .title").text("Generic Game #1");
   $(".game-1 .description").text("This is a test description -  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah");
+
+  //Details for game 2
+  $(".game-2 .title").text("Generic Game #2");
+  $(".game-2 .description").text("This is a long description -  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah v blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah");
 });
